@@ -1,6 +1,6 @@
 {
   "name": "g-factor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utility to get files & folders size",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

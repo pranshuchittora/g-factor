@@ -1,6 +1,8 @@
 import getSize from "./lib/getFilesAndSize";
 import convertBytes from "./lib/convertBytes";
 
+export { convertBytes };
+
 export default function(filePath) {
   process.env.SIZE = "0";
   getSize({ filelist: [] }, filePath);
