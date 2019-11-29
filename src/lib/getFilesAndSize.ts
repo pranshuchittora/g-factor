@@ -14,7 +14,7 @@ const showFiles = ({ filelist, allFiles }: any, dir: fs.PathLike) => {
   try {
     files = fs.readdirSync(dir);
   } catch (e) {
-    console.log("ERR_ACCESS_DENIED", e);
+    // console.log("ERR_ACCESS_DENIED", e);
     return { filelist };
   }
   files.forEach(function(file) {
@@ -34,7 +34,7 @@ const showFiles = ({ filelist, allFiles }: any, dir: fs.PathLike) => {
         allFiles.push(absPath);
       }
     } catch (e) {
-      console.log("ERR_LOCATION_NOT_FOUND", e);
+      // console.log("ERR_LOCATION_NOT_FOUND", e);
     }
   });
   return { filelist, allFiles };
