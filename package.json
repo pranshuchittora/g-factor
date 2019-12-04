@@ -5,8 +5,9 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "prepublish": "tsc",
-    "build": "tsc"
+    "watch": "tsc -p tsconfig.dev.json --watch",
+    "build": "yarn run format &&  tsc -p tsconfig.prod.json",
+    "format": "prettier --write 'src/**/*.*'"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,10 @@
   },
   "homepage": "https://github.com/pranshuchittora/g-factor#readme",
   "devDependencies": {
+    "@types/jest": "^24.0.23",
     "@types/node": "^12.12.11",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1",
     "typescript": "^3.7.2"
   },
   "dependencies": {
@@ -32,3 +36,4 @@
     "fs wrapper"
   ]
 }
+  

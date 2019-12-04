@@ -19,4 +19,3 @@ const convertBytes = function(bytes: number): string {
 };
 
 export default convertBytes;
-
