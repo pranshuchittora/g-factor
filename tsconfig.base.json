@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": "src",
     // "allowSyntheticDefaultImports": true,
-    "types": ["jest"],
+    "types": ["jest", "node"],
     "esModuleInterop": true,
     "module": "commonjs",
     "moduleResolution": "node",
