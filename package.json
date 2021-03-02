@@ -20,7 +20,7 @@
   "homepage": "https://github.com/pranshuchittora/g-factor#readme",
   "devDependencies": {
     "@types/node": "^12.12.11",
-    "typescript": "^3.7.2"
+    "typescript": "^4.2.2"
   },
   "dependencies": {
     "fs": "^0.0.1-security"
