@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/pranshuchittora/g-factor#readme",
   "devDependencies": {
-    "@types/node": "^12.12.11",
+    "@types/node": "^15.0.1",
     "typescript": "^3.7.2"
   },
   "dependencies": {
